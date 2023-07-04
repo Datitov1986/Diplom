@@ -5,10 +5,10 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
 
-        Date d = new Date();
-        System.out.println(d);
         Tarifi tar = new Tarifi();
         tar.getGorVoda();
-        System.out.println(tar.getGorVoda());
+        tar.getHolVoda();
+        System.out.printf("Ваши тарифы на сегодня: %.2f. рублей за 1 кубометр горячей воды" +
+                "и %.2f. рублей за 1 кубометр холодной воды", tar.getGorVoda(), tar.getHolVoda());
     }
 }

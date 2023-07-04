@@ -8,4 +8,12 @@ public class Menu {
         System.out.println("2. Посмотреть ранее внесенные показания");
         System.out.println("0. Уйти\n");
     }
+
+    public static void writeCounters(int values) {
+        System.out.println("Выберите показания каких счетчиков вы хотите ввести: ");
+        System.out.println("1. Счетчики воды");
+        System.out.println("2. Счетчики электроэнергии");
+        System.out.println("3. Вернуться в предыдущее меню");
+        System.out.println("0. Уйти\n");
+    }
 }

@@ -1,5 +1,11 @@
 package Tarif;
 
+/**
+ * Класс, содержащий тарифы
+ * есть возможность получать информацию о тарифах через геттеры,
+ * а также обновлять тарифы при их изменении при помощи сеттеров
+ */
+
 public class Tarifi {
     private static double gorVoda = 205.73;
     private static double holVoda = 50.93;
